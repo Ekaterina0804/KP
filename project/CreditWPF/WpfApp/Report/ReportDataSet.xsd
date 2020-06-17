@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportDataSet" targetNamespace="http://tempuri.org/ReportDataSet.xsd" xmlns:mstns="http://tempuri.org/ReportDataSet.xsd" xmlns="http://tempuri.org/ReportDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ReportDataSet" msprop:Generator_UserDSName="ReportDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CreditDT" msprop:Generator_TableClassName="CreditDTDataTable" msprop:Generator_TableVarName="tableCreditDT" msprop:Generator_TablePropName="CreditDT" msprop:Generator_RowDeletingName="CreditDTRowDeleting" msprop:Generator_RowChangingName="CreditDTRowChanging" msprop:Generator_RowEvHandlerName="CreditDTRowChangeEventHandler" msprop:Generator_RowDeletedName="CreditDTRowDeleted" msprop:Generator_UserTableName="CreditDT" msprop:Generator_RowChangedName="CreditDTRowChanged" msprop:Generator_RowEvArgName="CreditDTRowChangeEvent" msprop:Generator_RowClassName="CreditDTRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Fio" msprop:Generator_ColumnVarNameInTable="columnFio" msprop:Generator_ColumnPropNameInRow="Fio" msprop:Generator_ColumnPropNameInTable="FioColumn" msprop:Generator_UserColumnName="Fio" type="xs:string" minOccurs="0" />
+              <xs:element name="Data" msprop:Generator_ColumnVarNameInTable="columnData" msprop:Generator_ColumnPropNameInRow="Data" msprop:Generator_ColumnPropNameInTable="DataColumn" msprop:Generator_UserColumnName="Data" type="xs:string" minOccurs="0" />
+              <xs:element name="SummaFull" msprop:Generator_ColumnVarNameInTable="columnSummaFull" msprop:Generator_ColumnPropNameInRow="SummaFull" msprop:Generator_ColumnPropNameInTable="SummaFullColumn" msprop:Generator_UserColumnName="SummaFull" type="xs:string" minOccurs="0" />
+              <xs:element name="Stavka" msprop:Generator_ColumnVarNameInTable="columnStavka" msprop:Generator_ColumnPropNameInRow="Stavka" msprop:Generator_ColumnPropNameInTable="StavkaColumn" msprop:Generator_UserColumnName="Stavka" type="xs:string" minOccurs="0" />
+              <xs:element name="TermMonth" msprop:Generator_ColumnVarNameInTable="columnTermMonth" msprop:Generator_ColumnPropNameInRow="TermMonth" msprop:Generator_ColumnPropNameInTable="TermMonthColumn" msprop:Generator_UserColumnName="TermMonth" type="xs:string" minOccurs="0" />
+              <xs:element name="IdCredit" msprop:Generator_ColumnVarNameInTable="columnIdCredit" msprop:Generator_ColumnPropNameInRow="IdCredit" msprop:Generator_ColumnPropNameInTable="IdCreditColumn" msprop:Generator_UserColumnName="IdCredit" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PaymentDT" msprop:Generator_TableClassName="PaymentDTDataTable" msprop:Generator_TableVarName="tablePaymentDT" msprop:Generator_TablePropName="PaymentDT" msprop:Generator_RowDeletingName="PaymentDTRowDeleting" msprop:Generator_RowChangingName="PaymentDTRowChanging" msprop:Generator_RowEvHandlerName="PaymentDTRowChangeEventHandler" msprop:Generator_RowDeletedName="PaymentDTRowDeleted" msprop:Generator_UserTableName="PaymentDT" msprop:Generator_RowChangedName="PaymentDTRowChanged" msprop:Generator_RowEvArgName="PaymentDTRowChangeEvent" msprop:Generator_RowClassName="PaymentDTRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdCredit" msprop:Generator_ColumnVarNameInTable="columnIdCredit" msprop:Generator_ColumnPropNameInRow="IdCredit" msprop:Generator_ColumnPropNameInTable="IdCreditColumn" msprop:Generator_UserColumnName="IdCredit" type="xs:string" minOccurs="0" />
+              <xs:element name="NumberMonth" msprop:Generator_ColumnVarNameInTable="columnNumberMonth" msprop:Generator_ColumnPropNameInRow="NumberMonth" msprop:Generator_ColumnPropNameInTable="NumberMonthColumn" msprop:Generator_UserColumnName="NumberMonth" type="xs:string" minOccurs="0" />
+              <xs:element name="Data" msprop:Generator_ColumnVarNameInTable="columnData" msprop:Generator_ColumnPropNameInRow="Data" msprop:Generator_ColumnPropNameInTable="DataColumn" msprop:Generator_UserColumnName="Data" type="xs:string" minOccurs="0" />
+              <xs:element name="LostSumma" msprop:Generator_ColumnVarNameInTable="columnLostSumma" msprop:Generator_ColumnPropNameInRow="LostSumma" msprop:Generator_ColumnPropNameInTable="LostSummaColumn" msprop:Generator_UserColumnName="LostSumma" type="xs:string" minOccurs="0" />
+              <xs:element name="MainPay" msprop:Generator_ColumnVarNameInTable="columnMainPay" msprop:Generator_ColumnPropNameInRow="MainPay" msprop:Generator_ColumnPropNameInTable="MainPayColumn" msprop:Generator_UserColumnName="MainPay" type="xs:string" minOccurs="0" />
+              <xs:element name="Percent" msprop:Generator_ColumnVarNameInTable="columnPercent" msprop:Generator_ColumnPropNameInRow="Percent" msprop:Generator_ColumnPropNameInTable="PercentColumn" msprop:Generator_UserColumnName="Percent" type="xs:string" minOccurs="0" />
+              <xs:element name="SummaMonth" msprop:Generator_ColumnVarNameInTable="columnSummaMonth" msprop:Generator_ColumnPropNameInRow="SummaMonth" msprop:Generator_ColumnPropNameInTable="SummaMonthColumn" msprop:Generator_UserColumnName="SummaMonth" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:CreditDT" />
+      <xs:field xpath="mstns:IdCredit" />
+    </xs:unique>
+    <xs:keyref name="FK_CreditDT_PaymentDT" refer="Constraint1" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:PaymentDT" />
+      <xs:field xpath="mstns:IdCredit" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

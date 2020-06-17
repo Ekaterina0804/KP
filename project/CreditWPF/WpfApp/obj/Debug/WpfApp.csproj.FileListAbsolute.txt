@@ -1,0 +1,192 @@
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\bin\Debug\WpfApp.exe.config
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\bin\Debug\WpfApp.exe.config
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\WpfApp.csprojResolveAssemblyReference.cache
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\Style\AutoScrollListBox.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\Style\Button.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\Style\ButtonMenu.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\Style\ComboBox.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\Style\DataGrid.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\Style\ListView.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\Style\MainWindow.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\Style\ProgressBar.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\Style\TabControl.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\Style\TextBox.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\App.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\Style\MainWindow.g.cs
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\App.g.cs
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\WpfApp_MarkupCompile.cache
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\WpfApp_MarkupCompile.lref
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\bin\Debug\WpfApp.exe
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\bin\Debug\WpfApp.pdb
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\bin\Debug\FastReport.Bars.dll
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\bin\Debug\FastReport.dll
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\bin\Debug\FastReport.Editor.dll
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\bin\Debug\WpfEx.dll
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\bin\Debug\WPFToolkit.dll
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\bin\Debug\wpftoolkit.extended.dll
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\Style\MainWindowResources.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\WpfApp.g.resources
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\WpfApp.Properties.Resources.resources
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\WpfApp.csproj.GenerateResource.Cache
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\WpfApp.exe
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\WpfApp.pdb
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\MainWindowView.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\MainWindowView.g.cs
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\bin\Debug\Data\ButtonMenu.xml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\WpfApp_Content.g.cs
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\ShowUserView.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\ShowUserView.g.cs
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\WpfApp.exe
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\WpfApp.pdb
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\bin\Debug\Data\ButtonMenu.xml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\bin\Debug\WpfApp.exe
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\bin\Debug\WpfApp.pdb
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\bin\Debug\FastReport.Bars.dll
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\bin\Debug\FastReport.dll
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\bin\Debug\FastReport.Editor.dll
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\bin\Debug\WpfEx.dll
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\bin\Debug\WPFToolkit.dll
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\bin\Debug\wpftoolkit.extended.dll
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\WpfApp.csprojResolveAssemblyReference.cache
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\Style\AutoScrollListBox.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\Style\Button.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\Style\ButtonMenu.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\Style\ComboBox.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\Style\DataGrid.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\Style\ListView.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\Style\MainWindow.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\Style\ProgressBar.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\Style\TabControl.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\Style\TextBox.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\MainWindowView.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\ShowUserView.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\App.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\Style\MainWindow.g.cs
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\MainWindowView.g.cs
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\ShowUserView.g.cs
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\App.g.cs
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\WpfApp_Content.g.cs
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\WpfApp_MarkupCompile.cache
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\WpfApp_MarkupCompile.lref
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\Style\MainWindowResources.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\WpfApp.g.resources
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\WpfApp.Properties.Resources.resources
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\WpfApp.csproj.GenerateResource.Cache
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\MessageBoxWindow.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\MessageBoxWindow.g.cs
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\AddUserView.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\AddUserView.g.cs
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\AddGroupCreditWorthinesView.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\ShowGroupCreditWorthinessView.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\AddGroupCreditWorthinesView.g.cs
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\ShowGroupCreditWorthinessView.g.cs
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\AddGroupCharacterView.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\ShowGroupCharacterView.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\AddGroupCharacterView.g.cs
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\ShowGroupCharacterView.g.cs
+E:\C#\Подработка\ORDER New Credit\CreditWPF\WpfApp\bin\Debug\WpfApp.exe.config
+E:\C#\Подработка\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\WpfApp.exe
+E:\C#\Подработка\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\WpfApp.pdb
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\CreateCreditView.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\ShowCreditView.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\CreateCreditView.g.cs
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\ShowCreditView.g.cs
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\MessageBoxWindow.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\AddGroupCharacterView.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\AddGroupCreditWorthinesView.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\AddUserView.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\CreateCreditView.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\ShowCreditView.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\ShowGroupCharacterView.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\ShowGroupCreditWorthinessView.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\MessageBoxWindow.g.cs
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\AddGroupCharacterView.g.cs
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\AddGroupCreditWorthinesView.g.cs
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\AddUserView.g.cs
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\CreateCreditView.g.cs
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\ShowCreditView.g.cs
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\ShowGroupCharacterView.g.cs
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\ShowGroupCreditWorthinessView.g.cs
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\AddPaymentView.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\AddPaymentView.g.cs
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\AboutView.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\ShowPaymentsView.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\AboutView.g.cs
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\ShowPaymentsView.g.cs
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\AboutView.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\AddPaymentView.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\ShowPaymentsView.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\AboutView.g.cs
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\AddPaymentView.g.cs
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\ShowPaymentsView.g.cs
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\ShowUsersCreditView.baml
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\ShowUsersCreditView.g.cs
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\ShowUsersCreditView.baml
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\obj\Debug\View\ShowUsersCreditView.g.cs
+D:\Проекты\ORDER New Credit\CreditWPF\WpfApp\bin\Debug\Report\CreditReport.frx
+E:\Novikova\Проекты\ORDER New Credit\CreditWPF\WpfApp\bin\Debug\Report\CreditReport.frx
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\bin\Debug\Report\CreditReport.frx
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\bin\Debug\Data\ButtonMenu.xml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\bin\Debug\WpfApp.exe.config
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\bin\Debug\WpfApp.exe
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\bin\Debug\WpfApp.pdb
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\bin\Debug\FastReport.Bars.dll
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\bin\Debug\FastReport.dll
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\bin\Debug\FastReport.Editor.dll
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\bin\Debug\WpfEx.dll
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\bin\Debug\WPFToolkit.dll
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\bin\Debug\wpftoolkit.extended.dll
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\WpfApp.csprojResolveAssemblyReference.cache
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\MessageBoxWindow.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\Style\AutoScrollListBox.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\Style\Button.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\Style\ButtonMenu.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\Style\ComboBox.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\Style\DataGrid.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\Style\ListView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\Style\MainWindow.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\Style\ProgressBar.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\Style\TabControl.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\Style\TextBox.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\AboutView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\AddGroupCharacterView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\AddGroupCreditWorthinesView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\AddPaymentView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\AddUserView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\CreateCreditView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\MainWindowView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\ShowCreditView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\ShowGroupCharacterView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\ShowGroupCreditWorthinessView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\ShowPaymentsView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\ShowUsersCreditView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\ShowUserView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\App.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\MessageBoxWindow.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\Style\MainWindow.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\AboutView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\AddGroupCharacterView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\AddGroupCreditWorthinesView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\AddPaymentView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\AddUserView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\CreateCreditView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\MainWindowView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\ShowCreditView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\ShowGroupCharacterView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\ShowGroupCreditWorthinessView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\ShowPaymentsView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\ShowUsersCreditView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\View\ShowUserView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\App.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\WpfApp_Content.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\WpfApp_MarkupCompile.cache
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\WpfApp_MarkupCompile.lref
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\Style\MainWindowResources.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\WpfApp.g.resources
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\WpfApp.Properties.Resources.resources
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\WpfApp.csproj.GenerateResource.Cache
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\WpfApp.exe
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Debug\WpfApp.pdb

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu_button xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <First_button Name="Список кредитов" Metod="ShowCredit" />
+  <First_button Name="Список заёмщиков" Metod="ShowUsers" />
+  <First_button Name="Методы оценки" Metod="End">
+    <Second_button Name="Группы платёжеспособ-ти" Metod="ShowGroupCreditWorthiness"/>
+    <Second_button Name="Пар-ры платёжеспособ-ти" Metod="ShowGroupCharacter" />
+  </First_button>
+  <First_button Name="Сервис" Metod="End" >
+    <Second_button Name="О программе..." Metod="ShowAbout" />
+  </First_button>
+</Menu_button>

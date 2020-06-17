@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/WcfHost.Domain.Entities" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WcfHost.Domain.Entities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8001/Service/mex?xsd=xsd0" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="Payment">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CreditObj" nillable="true" type="tns:Credit" />
+      <xs:element minOccurs="0" name="Data" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IdCredit" type="xs:int" />
+      <xs:element minOccurs="0" name="LostSumma" type="xs:int" />
+      <xs:element minOccurs="0" name="MainPay" type="xs:int" />
+      <xs:element minOccurs="0" name="NumberMonth" type="xs:int" />
+      <xs:element minOccurs="0" name="Percent" type="xs:int" />
+      <xs:element minOccurs="0" name="Repay" type="xs:boolean" />
+      <xs:element minOccurs="0" name="SummaMonth" type="xs:int" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="Payment" nillable="true" type="tns:Payment" />
+  <xs:complexType name="Credit">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataStart" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IdUser" type="xs:int" />
+      <xs:element minOccurs="0" name="Stavka" type="xs:int" />
+      <xs:element minOccurs="0" name="SummaFull" type="xs:int" />
+      <xs:element minOccurs="0" name="SummaMonth" type="xs:int" />
+      <xs:element minOccurs="0" name="TermMonth" type="xs:int" />
+      <xs:element minOccurs="0" name="UserObj" nillable="true" type="tns:User" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="Credit" nillable="true" type="tns:Credit" />
+  <xs:complexType name="User">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Age" type="xs:int" />
+      <xs:element minOccurs="0" name="CountChildren" type="xs:int" />
+      <xs:element minOccurs="0" name="Fio" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GroupCreditWorthinessObj" nillable="true" type="tns:GroupCreditWorthiness" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IdGroupCreditWorthiness" type="xs:int" />
+      <xs:element minOccurs="0" name="Married" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RevenueMonth" type="xs:int" />
+      <xs:element minOccurs="0" name="Sex" nillable="true" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="User" nillable="true" type="tns:User" />
+  <xs:complexType name="GroupCreditWorthiness">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="MaxSumma" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="GroupCreditWorthiness" nillable="true" type="tns:GroupCreditWorthiness" />
+  <xs:complexType name="Condition">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="Condition" nillable="true" type="tns:Condition" />
+  <xs:complexType name="ConditionCredit">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ConditionObj" nillable="true" type="tns:Condition" />
+      <xs:element minOccurs="0" name="CreditObj" nillable="true" type="tns:Credit" />
+      <xs:element minOccurs="0" name="Data" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IdCondition" type="xs:int" />
+      <xs:element minOccurs="0" name="IdCredit" type="xs:int" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="ConditionCredit" nillable="true" type="tns:ConditionCredit" />
+  <xs:complexType name="GroupCharacter">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AgeMax" type="xs:int" />
+      <xs:element minOccurs="0" name="AgeMin" type="xs:int" />
+      <xs:element minOccurs="0" name="CountChildrenMax" type="xs:int" />
+      <xs:element minOccurs="0" name="CountChildrenMin" type="xs:int" />
+      <xs:element minOccurs="0" name="GroupCreditWorthinessObj" nillable="true" type="tns:GroupCreditWorthiness" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IdGroupCreditWorthiness" type="xs:int" />
+      <xs:element minOccurs="0" name="Married" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RevenueYearMax" type="xs:int" />
+      <xs:element minOccurs="0" name="RevenueYearMin" type="xs:int" />
+      <xs:element minOccurs="0" name="Sex" nillable="true" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="GroupCharacter" nillable="true" type="tns:GroupCharacter" />
+  <xs:complexType name="ArrayOfCondition">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Condition" nillable="true" type="tns:Condition" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCondition" nillable="true" type="tns:ArrayOfCondition" />
+  <xs:complexType name="ArrayOfConditionCredit">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ConditionCredit" nillable="true" type="tns:ConditionCredit" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfConditionCredit" nillable="true" type="tns:ArrayOfConditionCredit" />
+  <xs:complexType name="ArrayOfPayment">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Payment" nillable="true" type="tns:Payment" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPayment" nillable="true" type="tns:ArrayOfPayment" />
+  <xs:complexType name="ArrayOfCredit">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Credit" nillable="true" type="tns:Credit" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCredit" nillable="true" type="tns:ArrayOfCredit" />
+  <xs:complexType name="ArrayOfUser">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="User" nillable="true" type="tns:User" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUser" nillable="true" type="tns:ArrayOfUser" />
+  <xs:complexType name="ArrayOfGroupCharacter">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="GroupCharacter" nillable="true" type="tns:GroupCharacter" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGroupCharacter" nillable="true" type="tns:ArrayOfGroupCharacter" />
+  <xs:complexType name="ArrayOfGroupCreditWorthiness">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="GroupCreditWorthiness" nillable="true" type="tns:GroupCreditWorthiness" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGroupCreditWorthiness" nillable="true" type="tns:ArrayOfGroupCreditWorthiness" />
+</xs:schema>

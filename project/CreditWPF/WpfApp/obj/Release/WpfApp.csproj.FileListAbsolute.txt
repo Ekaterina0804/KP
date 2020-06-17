@@ -1,0 +1,193 @@
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\bin\Release\WpfApp.exe.config
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\bin\Release\Report\CreditReport.frx
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\bin\Release\Data\ButtonMenu.xml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\bin\Release\WpfApp.exe
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\bin\Release\WpfApp.pdb
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\bin\Release\FastReport.Bars.dll
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\bin\Release\FastReport.dll
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\bin\Release\FastReport.Editor.dll
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\bin\Release\WpfEx.dll
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\bin\Release\WPFToolkit.dll
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\bin\Release\wpftoolkit.extended.dll
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\WpfApp.csprojResolveAssemblyReference.cache
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\MessageBoxWindow.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\Style\AutoScrollListBox.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\Style\Button.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\Style\ButtonMenu.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\Style\ComboBox.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\Style\DataGrid.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\Style\ListView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\Style\MainWindow.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\Style\ProgressBar.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\Style\TabControl.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\Style\TextBox.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\AboutView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\AddGroupCharacterView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\AddGroupCreditWorthinesView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\AddPaymentView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\AddUserView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\CreateCreditView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\MainWindowView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\ShowCreditView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\ShowGroupCharacterView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\ShowGroupCreditWorthinessView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\ShowPaymentsView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\ShowUsersCreditView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\ShowUserView.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\App.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\MessageBoxWindow.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\Style\MainWindow.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\AboutView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\AddGroupCharacterView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\AddGroupCreditWorthinesView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\AddPaymentView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\AddUserView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\CreateCreditView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\MainWindowView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\ShowCreditView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\ShowGroupCharacterView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\ShowGroupCreditWorthinessView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\ShowPaymentsView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\ShowUsersCreditView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\View\ShowUserView.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\App.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\WpfApp_Content.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\GeneratedInternalTypeHelper.g.cs
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\WpfApp_MarkupCompile.cache
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\WpfApp_MarkupCompile.lref
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\Style\MainWindowResources.baml
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\WpfApp.g.resources
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\WpfApp.Properties.Resources.resources
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\WpfApp.csproj.GenerateResource.Cache
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\WpfApp.exe
+E:\C#\Подработка\ORDER 38065\CreditWPF\WpfApp\obj\Release\WpfApp.pdb
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\bin\Release\Report\CreditReport.frx
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\bin\Release\Data\ButtonMenu.xml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\bin\Release\WpfApp.exe.config
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\bin\Release\WpfApp.exe
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\bin\Release\WpfApp.pdb
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\bin\Release\FastReport.Bars.dll
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\bin\Release\FastReport.dll
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\bin\Release\FastReport.Editor.dll
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\bin\Release\WpfEx.dll
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\bin\Release\WPFToolkit.dll
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\bin\Release\wpftoolkit.extended.dll
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\WpfApp.csprojAssemblyReference.cache
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\MessageBoxWindow.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\Style\AutoScrollListBox.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\Style\Button.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\Style\ButtonMenu.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\Style\ComboBox.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\Style\DataGrid.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\Style\ListView.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\Style\MainWindow.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\Style\ProgressBar.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\Style\TabControl.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\Style\TextBox.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\AboutView.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\AddGroupCharacterView.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\AddGroupCreditWorthinesView.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\AddPaymentView.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\AddUserView.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\CreateCreditView.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\MainWindowView.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\ShowCreditView.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\ShowGroupCharacterView.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\ShowGroupCreditWorthinessView.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\ShowPaymentsView.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\ShowUsersCreditView.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\ShowUserView.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\App.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\MessageBoxWindow.g.cs
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\Style\MainWindow.g.cs
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\AboutView.g.cs
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\AddGroupCharacterView.g.cs
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\AddGroupCreditWorthinesView.g.cs
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\AddPaymentView.g.cs
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\AddUserView.g.cs
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\CreateCreditView.g.cs
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\MainWindowView.g.cs
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\ShowCreditView.g.cs
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\ShowGroupCharacterView.g.cs
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\ShowGroupCreditWorthinessView.g.cs
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\ShowPaymentsView.g.cs
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\ShowUsersCreditView.g.cs
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\ShowUserView.g.cs
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\App.g.cs
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\WpfApp_Content.g.cs
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\GeneratedInternalTypeHelper.g.cs
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\WpfApp_MarkupCompile.cache
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\WpfApp_MarkupCompile.lref
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\Style\MainWindowResources.baml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\WpfApp.g.resources
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\WpfApp.Properties.Resources.resources
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\WpfApp.csproj.GenerateResource.cache
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\WpfApp.csproj.CopyComplete
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\WpfApp.exe
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\WpfApp.pdb
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\bin\Release\WpfApp.exe.config
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\WpfApp.exe
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\WpfApp.pdb
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\bin\Release\Report\CreditReport.frx
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\bin\Release\Data\ButtonMenu.xml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\bin\Release\WpfApp.exe
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\bin\Release\WpfApp.pdb
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\bin\Release\FastReport.Bars.dll
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\bin\Release\FastReport.dll
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\bin\Release\FastReport.Editor.dll
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\bin\Release\WpfEx.dll
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\bin\Release\WPFToolkit.dll
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\bin\Release\wpftoolkit.extended.dll
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\WpfApp.csprojResolveAssemblyReference.cache
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\MessageBoxWindow.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\Style\AutoScrollListBox.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\Style\Button.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\Style\ButtonMenu.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\Style\ComboBox.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\Style\DataGrid.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\Style\ListView.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\Style\MainWindow.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\Style\ProgressBar.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\Style\TabControl.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\Style\TextBox.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\AboutView.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\AddGroupCharacterView.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\AddGroupCreditWorthinesView.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\AddPaymentView.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\AddUserView.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\CreateCreditView.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\MainWindowView.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\ShowCreditView.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\ShowGroupCharacterView.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\ShowGroupCreditWorthinessView.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\ShowPaymentsView.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\ShowUsersCreditView.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\ShowUserView.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\App.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\MessageBoxWindow.g.cs
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\Style\MainWindow.g.cs
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\AboutView.g.cs
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\AddGroupCharacterView.g.cs
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\AddGroupCreditWorthinesView.g.cs
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\AddPaymentView.g.cs
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\AddUserView.g.cs
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\CreateCreditView.g.cs
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\MainWindowView.g.cs
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\ShowCreditView.g.cs
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\ShowGroupCharacterView.g.cs
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\ShowGroupCreditWorthinessView.g.cs
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\ShowPaymentsView.g.cs
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\ShowUsersCreditView.g.cs
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\View\ShowUserView.g.cs
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\App.g.cs
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\WpfApp_Content.g.cs
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\GeneratedInternalTypeHelper.g.cs
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\WpfApp_MarkupCompile.cache
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\WpfApp_MarkupCompile.lref
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\Style\MainWindowResources.baml
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\WpfApp.g.resources
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\WpfApp.Properties.Resources.resources
+D:\Загрузки\118-КП-СТОЭИ\118-КП-СТОЭИ\project\CreditWPF\WpfApp\obj\Release\WpfApp.csproj.GenerateResource.Cache
+D:\СТОЭИ\СТОЭИ\project\CreditWPF\WpfApp\bin\Release\WpfApp.exe.config
+D:\СТОЭИ\СТОЭИ\project\CreditWPF\WpfApp\obj\Release\WpfApp.exe
+D:\СТОЭИ\СТОЭИ\project\CreditWPF\WpfApp\obj\Release\WpfApp.pdb

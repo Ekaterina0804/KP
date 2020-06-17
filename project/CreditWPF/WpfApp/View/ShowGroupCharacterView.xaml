@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="WpfApp.View.ShowGroupCharacterView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="500">
+    <Grid>
+        <Grid Name="RootGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <DataGrid Name="allModelDataGrid" 
+                  Grid.Column="0" Grid.Row="0" 
+                  AutoGenerateColumns="False" 
+                  EnableRowVirtualization="True" 
+                  HorizontalAlignment="Stretch" 
+                  VerticalAlignment="Stretch" 
+                  ItemsSource="{Binding AllModel}"                                                  
+                  RowDetailsVisibilityMode="VisibleWhenSelected"                       
+                  SelectionMode="Single" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding Path=GroupName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="Группа" Width="100" IsReadOnly="True" />
+                    <DataGridTextColumn Binding="{Binding Path=ShowRevenue, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Header="Годовой доход $" Width="*" IsReadOnly="True" />
+                    <DataGridTextColumn Binding="{Binding Path=Sex, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="Пол" Width="100" IsReadOnly="True" />
+                    <DataGridTextColumn Binding="{Binding Path=ShowAge, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Header="Возраст" Width="100" IsReadOnly="True" />
+                    <DataGridTextColumn Binding="{Binding Path=Married, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="Семейное положение" Width="*" IsReadOnly="True" />
+                    <DataGridTextColumn Binding="{Binding Path=ShowChildren, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Header="Кол-во детей" Width="*" IsReadOnly="True" />
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Grid.Row="2" Margin="0 2" >
+                <Button Content="Добавить" Width="100" Height="25" Margin="5,0" Command="{Binding Path=AddCmd}"/>
+                <Button Content="Изменить" Width="100" Height="25" Margin="5,0" Command="{Binding Path=UpdateCmd}" CommandParameter="{Binding ElementName=allModelDataGrid, Path=SelectedItem}"/>
+                <Button Content="Удалить" Width="100" Height="25" Margin="5,0" Command="{Binding Path=DeleteCmd}" CommandParameter="{Binding ElementName=allModelDataGrid, Path=SelectedItem}"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

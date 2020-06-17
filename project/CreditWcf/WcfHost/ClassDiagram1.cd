@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WcfHost.Attributes.ApplyDataContractResolverAttribute" BaseTypeListCollapsed="true">
+    <Position X="51.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAQAACAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\ApplyDataContractResolverAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WcfHost.Domain.DataContext" Collapsed="true">
+    <Position X="55.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAACAAACBAAAAAABAAAAAAEAAAAAAAAAAIAABAAAA=</HashCode>
+      <FileName>Domain\DataContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfHost.Domain.DataContextDbInitializer" Collapsed="true">
+    <Position X="57" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\DataContextDbInitializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfHost.Domain.Entities.Condition">
+    <Position X="49.25" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Domain\Entities\Condition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfHost.Domain.Entities.ConditionCredit">
+    <Position X="51.25" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAABAAAAEAAAAAAAAAAABACAAAAAIAAAAA=</HashCode>
+      <FileName>Domain\Entities\ConditionCredit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfHost.Domain.Entities.Credit">
+    <Position X="53.25" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAIACABgAAAAAAAAAEQAAAAAgAAAAAAAAABCAAA=</HashCode>
+      <FileName>Domain\Entities\Credit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfHost.Domain.Entities.GroupCharacter">
+    <Position X="55.25" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUCAAAAAAAAFAAEAABAAAIAAAABAAAAAAEAAAAgAAA=</HashCode>
+      <FileName>Domain\Entities\GroupCharacter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfHost.Domain.Entities.GroupCreditWorthiness">
+    <Position X="57" Y="22.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAAAAAAAAAQAAAAAQAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Domain\Entities\GroupCreditWorthiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfHost.Domain.Entities.Payment">
+    <Position X="59" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAIBAAAAAAAAAAAAAAABACAAAAKIACQAA=</HashCode>
+      <FileName>Domain\Entities\Payment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfHost.Domain.Entities.User">
+    <Position X="61.25" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAAAAAAABACACEBAAAIQAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Domain\Entities\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfHost.Domain.Entities.UserMap" Collapsed="true">
+    <Position X="53.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Mapping\UserMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfHost.Domain.Mapping.ConditionCreditMap" Collapsed="true">
+    <Position X="57" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Mapping\ConditionCreditMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfHost.Domain.Mapping.ConditionMap" Collapsed="true">
+    <Position X="58.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Mapping\ConditionMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfHost.Domain.Mapping.CreditMap" Collapsed="true">
+    <Position X="53.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Mapping\CreditMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfHost.Domain.Mapping.GroupCharacterMap" Collapsed="true">
+    <Position X="51.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Mapping\GroupCharacterMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfHost.Domain.Mapping.GroupCreditWorthinessMap" Collapsed="true">
+    <Position X="55.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Mapping\GroupCreditWorthinessMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfHost.Domain.Mapping.PaymentMap" Collapsed="true">
+    <Position X="58.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Mapping\PaymentMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfHost.Program" Collapsed="true">
+    <Position X="51.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfHost.Service" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="55.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IJEBZAAAABAAASQGAACABAAAEYBAwQAgANACGAoEAIA=</HashCode>
+      <FileName>Service.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WcfHost.ServiceHostForm" Collapsed="true">
+    <Position X="57" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAGAAEBAAAACAIAACAAAAAAIAAAkAAAAAAAA=</HashCode>
+      <FileName>ServiceHostForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfHost.Properties.Resources" Collapsed="true">
+    <Position X="53.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfHost.Properties.Settings" Collapsed="true">
+    <Position X="58.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="WcfHost.IService" Collapsed="true">
+    <Position X="50.5" Y="19.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IJEBZAAAABAAASQGAACABAAAEYBAwQAgANACGAoEAIA=</HashCode>
+      <FileName>IService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

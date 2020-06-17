@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://WcfHost/Service/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://WcfHost/Service/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://WcfHost/Service/Imports">
+      <xsd:import schemaLocation="http://localhost:8001/Service/mex?xsd=xsd2" namespace="http://WcfHost/Service/" />
+      <xsd:import schemaLocation="http://localhost:8001/Service/mex?xsd=xsd0" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8001/Service/mex?xsd=xsd1" namespace="http://schemas.datacontract.org/2004/07/WcfHost.Domain.Entities" />
+      <xsd:import schemaLocation="http://localhost:8001/Service/mex?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="Service_GetConditions_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetConditions" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetConditions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetConditionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetConditionCredits_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetConditionCredits" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetConditionCredits_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetConditionCreditsResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetConditionCreditsByIdCredits_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetConditionCreditsByIdCredits" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetConditionCreditsByIdCredits_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetConditionCreditsByIdCreditsResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetPayments_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPayments" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetPayments_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPaymentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetPaymentsByIdCredit_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPaymentsByIdCredit" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetPaymentsByIdCredit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPaymentsByIdCreditResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetCredits_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCredits" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetCredits_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCreditsResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetCreditsByIdUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCreditsByIdUser" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetCreditsByIdUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCreditsByIdUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_FirstCredit_InputMessage">
+    <wsdl:part name="parameters" element="tns:FirstCredit" />
+  </wsdl:message>
+  <wsdl:message name="Service_FirstCredit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FirstCreditResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetUsers_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsers" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetUsers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_FirstUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:FirstUser" />
+  </wsdl:message>
+  <wsdl:message name="Service_FirstUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FirstUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetGroupCharacters_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupCharacters" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetGroupCharacters_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupCharactersResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetGroupCreditWorthinesss_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupCreditWorthinesss" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetGroupCreditWorthinesss_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupCreditWorthinesssResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_FirstGroupCreditWorthiness_InputMessage">
+    <wsdl:part name="parameters" element="tns:FirstGroupCreditWorthiness" />
+  </wsdl:message>
+  <wsdl:message name="Service_FirstGroupCreditWorthiness_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FirstGroupCreditWorthinessResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_FirstGroupCreditWorthinessByName_InputMessage">
+    <wsdl:part name="parameters" element="tns:FirstGroupCreditWorthinessByName" />
+  </wsdl:message>
+  <wsdl:message name="Service_FirstGroupCreditWorthinessByName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FirstGroupCreditWorthinessByNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_AddUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddUser" />
+  </wsdl:message>
+  <wsdl:message name="Service_AddUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_AddGroupCreditWorthiness_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddGroupCreditWorthiness" />
+  </wsdl:message>
+  <wsdl:message name="Service_AddGroupCreditWorthiness_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddGroupCreditWorthinessResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_AddGroupCharacter_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddGroupCharacter" />
+  </wsdl:message>
+  <wsdl:message name="Service_AddGroupCharacter_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddGroupCharacterResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_AddCredit_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddCredit" />
+  </wsdl:message>
+  <wsdl:message name="Service_AddCredit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddCreditResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_AddPayment_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddPayment" />
+  </wsdl:message>
+  <wsdl:message name="Service_AddPayment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_AddConditionCredit_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddConditionCredit" />
+  </wsdl:message>
+  <wsdl:message name="Service_AddConditionCredit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddConditionCreditResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_DeleteUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteUser" />
+  </wsdl:message>
+  <wsdl:message name="Service_DeleteUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_DeleteGroupCreditWorthiness_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGroupCreditWorthiness" />
+  </wsdl:message>
+  <wsdl:message name="Service_DeleteGroupCreditWorthiness_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGroupCreditWorthinessResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_DeleteGroupCharacter_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGroupCharacter" />
+  </wsdl:message>
+  <wsdl:message name="Service_DeleteGroupCharacter_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGroupCharacterResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_DeleteCredit_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteCredit" />
+  </wsdl:message>
+  <wsdl:message name="Service_DeleteCredit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteCreditResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_UpdateUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUser" />
+  </wsdl:message>
+  <wsdl:message name="Service_UpdateUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_UpdateGroupCreditWorthiness_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGroupCreditWorthiness" />
+  </wsdl:message>
+  <wsdl:message name="Service_UpdateGroupCreditWorthiness_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGroupCreditWorthinessResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_UpdateGroupCharacter_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGroupCharacter" />
+  </wsdl:message>
+  <wsdl:message name="Service_UpdateGroupCharacter_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGroupCharacterResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_UpdateCredit_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCredit" />
+  </wsdl:message>
+  <wsdl:message name="Service_UpdateCredit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCreditResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_UpdatePayment_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePayment" />
+  </wsdl:message>
+  <wsdl:message name="Service_UpdatePayment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_IsHasGroupByGroupName_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsHasGroupByGroupName" />
+  </wsdl:message>
+  <wsdl:message name="Service_IsHasGroupByGroupName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsHasGroupByGroupNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_AlgorirmForGroup_InputMessage">
+    <wsdl:part name="parameters" element="tns:AlgorirmForGroup" />
+  </wsdl:message>
+  <wsdl:message name="Service_AlgorirmForGroup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AlgorirmForGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_AlgoritmEconomicValue_InputMessage">
+    <wsdl:part name="parameters" element="tns:AlgoritmEconomicValue" />
+  </wsdl:message>
+  <wsdl:message name="Service_AlgoritmEconomicValue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AlgoritmEconomicValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_AlgoritmMonthPay_InputMessage">
+    <wsdl:part name="parameters" element="tns:AlgoritmMonthPay" />
+  </wsdl:message>
+  <wsdl:message name="Service_AlgoritmMonthPay_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AlgoritmMonthPayResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_CalculationPayment_InputMessage">
+    <wsdl:part name="parameters" element="tns:CalculationPayment" />
+  </wsdl:message>
+  <wsdl:message name="Service_CalculationPayment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CalculationPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_SearchPayment_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchPayment" />
+  </wsdl:message>
+  <wsdl:message name="Service_SearchPayment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetCountCredit_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCountCredit" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetCountCredit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCountCreditResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetFullSummaCredits_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFullSummaCredits" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetFullSummaCredits_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFullSummaCreditsResponse" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetLostSummaCredits_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLostSummaCredits" />
+  </wsdl:message>
+  <wsdl:message name="Service_GetLostSummaCredits_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLostSummaCreditsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Service">
+    <wsdl:operation name="GetConditions">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/GetConditions" message="tns:Service_GetConditions_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/GetConditionsResponse" message="tns:Service_GetConditions_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetConditionCredits">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/GetConditionCredits" message="tns:Service_GetConditionCredits_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/GetConditionCreditsResponse" message="tns:Service_GetConditionCredits_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetConditionCreditsByIdCredits">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/GetConditionCreditsByIdCredits" message="tns:Service_GetConditionCreditsByIdCredits_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/GetConditionCreditsByIdCreditsResponse" message="tns:Service_GetConditionCreditsByIdCredits_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPayments">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/GetPayments" message="tns:Service_GetPayments_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/GetPaymentsResponse" message="tns:Service_GetPayments_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPaymentsByIdCredit">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/GetPaymentsByIdCredit" message="tns:Service_GetPaymentsByIdCredit_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/GetPaymentsByIdCreditResponse" message="tns:Service_GetPaymentsByIdCredit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCredits">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/GetCredits" message="tns:Service_GetCredits_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/GetCreditsResponse" message="tns:Service_GetCredits_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCreditsByIdUser">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/GetCreditsByIdUser" message="tns:Service_GetCreditsByIdUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/GetCreditsByIdUserResponse" message="tns:Service_GetCreditsByIdUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FirstCredit">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/FirstCredit" message="tns:Service_FirstCredit_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/FirstCreditResponse" message="tns:Service_FirstCredit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUsers">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/GetUsers" message="tns:Service_GetUsers_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/GetUsersResponse" message="tns:Service_GetUsers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FirstUser">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/FirstUser" message="tns:Service_FirstUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/FirstUserResponse" message="tns:Service_FirstUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupCharacters">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/GetGroupCharacters" message="tns:Service_GetGroupCharacters_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/GetGroupCharactersResponse" message="tns:Service_GetGroupCharacters_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupCreditWorthinesss">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/GetGroupCreditWorthinesss" message="tns:Service_GetGroupCreditWorthinesss_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/GetGroupCreditWorthinesssResponse" message="tns:Service_GetGroupCreditWorthinesss_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FirstGroupCreditWorthiness">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/FirstGroupCreditWorthiness" message="tns:Service_FirstGroupCreditWorthiness_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/FirstGroupCreditWorthinessResponse" message="tns:Service_FirstGroupCreditWorthiness_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FirstGroupCreditWorthinessByName">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/FirstGroupCreditWorthinessByName" message="tns:Service_FirstGroupCreditWorthinessByName_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/FirstGroupCreditWorthinessByNameResponse" message="tns:Service_FirstGroupCreditWorthinessByName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddUser">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/AddUser" message="tns:Service_AddUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/AddUserResponse" message="tns:Service_AddUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddGroupCreditWorthiness">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/AddGroupCreditWorthiness" message="tns:Service_AddGroupCreditWorthiness_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/AddGroupCreditWorthinessResponse" message="tns:Service_AddGroupCreditWorthiness_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddGroupCharacter">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/AddGroupCharacter" message="tns:Service_AddGroupCharacter_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/AddGroupCharacterResponse" message="tns:Service_AddGroupCharacter_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddCredit">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/AddCredit" message="tns:Service_AddCredit_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/AddCreditResponse" message="tns:Service_AddCredit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddPayment">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/AddPayment" message="tns:Service_AddPayment_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/AddPaymentResponse" message="tns:Service_AddPayment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddConditionCredit">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/AddConditionCredit" message="tns:Service_AddConditionCredit_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/AddConditionCreditResponse" message="tns:Service_AddConditionCredit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUser">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/DeleteUser" message="tns:Service_DeleteUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/DeleteUserResponse" message="tns:Service_DeleteUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGroupCreditWorthiness">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/DeleteGroupCreditWorthiness" message="tns:Service_DeleteGroupCreditWorthiness_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/DeleteGroupCreditWorthinessResponse" message="tns:Service_DeleteGroupCreditWorthiness_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGroupCharacter">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/DeleteGroupCharacter" message="tns:Service_DeleteGroupCharacter_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/DeleteGroupCharacterResponse" message="tns:Service_DeleteGroupCharacter_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCredit">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/DeleteCredit" message="tns:Service_DeleteCredit_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/DeleteCreditResponse" message="tns:Service_DeleteCredit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/UpdateUser" message="tns:Service_UpdateUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/UpdateUserResponse" message="tns:Service_UpdateUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGroupCreditWorthiness">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/UpdateGroupCreditWorthiness" message="tns:Service_UpdateGroupCreditWorthiness_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/UpdateGroupCreditWorthinessResponse" message="tns:Service_UpdateGroupCreditWorthiness_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGroupCharacter">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/UpdateGroupCharacter" message="tns:Service_UpdateGroupCharacter_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/UpdateGroupCharacterResponse" message="tns:Service_UpdateGroupCharacter_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCredit">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/UpdateCredit" message="tns:Service_UpdateCredit_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/UpdateCreditResponse" message="tns:Service_UpdateCredit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePayment">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/UpdatePayment" message="tns:Service_UpdatePayment_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/UpdatePaymentResponse" message="tns:Service_UpdatePayment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsHasGroupByGroupName">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/IsHasGroupByGroupName" message="tns:Service_IsHasGroupByGroupName_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/IsHasGroupByGroupNameResponse" message="tns:Service_IsHasGroupByGroupName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AlgorirmForGroup">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/AlgorirmForGroup" message="tns:Service_AlgorirmForGroup_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/AlgorirmForGroupResponse" message="tns:Service_AlgorirmForGroup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AlgoritmEconomicValue">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/AlgoritmEconomicValue" message="tns:Service_AlgoritmEconomicValue_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/AlgoritmEconomicValueResponse" message="tns:Service_AlgoritmEconomicValue_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AlgoritmMonthPay">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/AlgoritmMonthPay" message="tns:Service_AlgoritmMonthPay_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/AlgoritmMonthPayResponse" message="tns:Service_AlgoritmMonthPay_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CalculationPayment">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/CalculationPayment" message="tns:Service_CalculationPayment_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/CalculationPaymentResponse" message="tns:Service_CalculationPayment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchPayment">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/SearchPayment" message="tns:Service_SearchPayment_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/SearchPaymentResponse" message="tns:Service_SearchPayment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCountCredit">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/GetCountCredit" message="tns:Service_GetCountCredit_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/GetCountCreditResponse" message="tns:Service_GetCountCredit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFullSummaCredits">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/GetFullSummaCredits" message="tns:Service_GetFullSummaCredits_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/GetFullSummaCreditsResponse" message="tns:Service_GetFullSummaCredits_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLostSummaCredits">
+      <wsdl:input wsaw:Action="http://WcfHost/Service/Service/GetLostSummaCredits" message="tns:Service_GetLostSummaCredits_InputMessage" />
+      <wsdl:output wsaw:Action="http://WcfHost/Service/Service/GetLostSummaCreditsResponse" message="tns:Service_GetLostSummaCredits_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

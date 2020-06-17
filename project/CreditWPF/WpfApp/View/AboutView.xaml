@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp.View.AboutView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Height="405" Width="400"
+        WindowStartupLocation="CenterScreen"
+        Style="{StaticResource ShowDialogWindowsStyle}"
+        Icon="/WpfApp;component/Image/title.ico"
+        Title="О программе..." >
+    <Window.Resources>
+        <BitmapImage x:Key="logotip" UriSource="/Image/picture.jpg" />
+    </Window.Resources>
+    
+    <Grid>
+        <StackPanel Margin="0,10,0,0">
+            <Label Content="Методы оценки кредитоспособности" HorizontalAlignment="Center" VerticalAlignment="Top" Width="Auto" FontSize="16" Foreground="White"/>
+            <Label Content="клиентов банка и " HorizontalAlignment="Center" VerticalAlignment="Top" Width="Auto" FontSize="16" Foreground="White"/>
+            <Label Content="ведение графика выплаты кредитов" HorizontalAlignment="Center" VerticalAlignment="Top" Width="Auto" FontSize="16" Foreground="White"/>
+            <Image Source="{StaticResource logotip}" Width="320" Height="223" Margin="37,0"/>
+            <Button Height="30" Width="150" Margin="0,10,0,0" Content="Закрыть" Click="CloseButton_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

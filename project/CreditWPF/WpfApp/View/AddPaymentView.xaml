@@ -1,0 +1,54 @@
+﻿<Window x:Class="WpfApp.View.AddPaymentView"
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:extToolkit="http://schemas.microsoft.com/winfx/2006/xaml/presentation/toolkit/extended"
+             xmlns:attachedBehaviors="clr-namespace:WpfEx.AttachedBehaviors;assembly=WpfEx"
+             Style="{StaticResource ShowDialogWindowsStyle}"
+        Icon="/WpfApp;component/Image/title.ico"
+             Title="Внесение платежа" 
+             WindowStartupLocation="CenterScreen" 
+             Height="330" Width="450">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Дата погашения платежа:" Foreground="White" FontSize="14" Margin="10,7" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" />
+        <TextBlock Text="Остаток кредита:" Foreground="White" FontSize="14" Margin="10,7" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right"/>
+        <TextBlock Text="Ежемесячный платёж" Foreground="White" FontSize="14" Margin="10,7" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right"/>
+        <TextBlock Text="Сумма платежа:" Foreground="White" FontSize="14" Margin="10,7" Grid.Row="5" Grid.Column="0" HorizontalAlignment="Right"/>
+        <TextBlock Text="Остаток ежемесячного платежа:" Foreground="White" FontSize="14" Margin="10,7" Grid.Row="6" Grid.Column="0" HorizontalAlignment="Right"/>
+        <TextBlock Text="Номер месяца:" Foreground="White" FontSize="14" Margin="10,7" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right"/>
+
+        <TextBox Name="txtNumberMonth" Height="22" Width="189" Grid.Row="1" Grid.Column="1"  Margin="0 6"
+                 HorizontalAlignment="Left" IsReadOnly="True"/>
+        <TextBox Name="txtData" Height="22" Width="189" Grid.Row="2" Grid.Column="1"  Margin="0 6"
+                 HorizontalAlignment="Left" IsReadOnly="True"/>
+        <TextBox Name="txtLostSumma" Height="22" Width="189" Grid.Row="3" Grid.Column="1"   Margin="0 6"
+                 HorizontalAlignment="Left" IsReadOnly="True"/>
+        <TextBox Name="txtSummaMonth" Height="22" Width="189" Grid.Row="4" Grid.Column="1"  Margin="0 6"
+                 HorizontalAlignment="Left" IsReadOnly="True"/>
+
+        <TextBox x:Name="txtSummaPay" Height="22" Width="189" Grid.Row="5" Grid.Column="1" MaxLength="7"  Margin="0 6"
+                 HorizontalAlignment="Left" attachedBehaviors:TextBoxBehavior.IsInteger="True" KeyUp="TxtSummaPay_OnTextChanged"/>
+        <TextBox x:Name="txtSummalost" Height="22" Width="189" Grid.Row="6" Grid.Column="1"  Margin="0 6"
+                 HorizontalAlignment="Left" IsReadOnly="True"/>
+
+
+        <StackPanel Orientation="Horizontal" Grid.Row="7" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="8">
+            <Button x:Name="CloseButton" Height="30" Width="100" Margin="10,0" Content="Отмена" Click="CloseButton_Click" IsCancel="True" />
+            <Button x:Name="SaveButton" Height="30" Width="100" Margin="10,0" Content="Сохранить" Click="SaveButton_Click" IsEnabled="true" />
+        </StackPanel>
+    </Grid>
+</Window>

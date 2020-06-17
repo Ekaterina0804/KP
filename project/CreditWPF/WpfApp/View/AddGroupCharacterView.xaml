@@ -1,0 +1,55 @@
+﻿<Window x:Class="WpfApp.View.AddGroupCharacterView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:extToolkit="http://schemas.microsoft.com/winfx/2006/xaml/presentation/toolkit/extended"
+             xmlns:attachedBehaviors="clr-namespace:WpfEx.AttachedBehaviors;assembly=WpfEx"
+             Style="{StaticResource ShowDialogWindowsStyle}"
+             Icon="/WpfApp;component/Image/title.ico"
+             Title="Работа с параметрами группы" 
+             WindowStartupLocation="CenterScreen" 
+             Height="300" Width="460">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Группа платёжеспос-ти:" Foreground="White" FontSize="14" Margin="10,7" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right"/>
+        <TextBlock Text="Годовой доход $:" Foreground="White" FontSize="14" Margin="10,7" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right"/>
+        <TextBlock Text="Пол:" Foreground="White" FontSize="14" Margin="10,7" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right"/>
+        <TextBlock Text="Возраст от" Foreground="White" FontSize="14" Margin="10,7" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right"/>
+        <TextBlock Text="Кол-во детей:" Foreground="White" FontSize="14" Margin="10,7" Grid.Row="5" Grid.Column="0" HorizontalAlignment="Right"/>
+        <TextBlock Text="Семейное положение:" Foreground="White" FontSize="14" Margin="10,7" Grid.Row="6" Grid.Column="0" HorizontalAlignment="Right"/>
+
+        <ComboBox Name="cmbGroup" Margin="0,6,0,5" Height="22" Width="189" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" />
+        
+        <ComboBox Name="cmbRevenue" Margin="0,6,0,5" Height="22" Width="189" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" />
+
+        <ComboBox Name="cmbSex" Margin="0,5,0,6" Height="22" Width="189" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" />
+
+        <extToolkit:MaskedTextBox Name="txtAgeMin" Grid.Row="4" Grid.Column="1" Height="22" Margin="0,7,0,5"
+                                  Mask="#00" Width="76" HorizontalAlignment="Left" />
+        <extToolkit:MaskedTextBox x:Name="txtAgeMax" Grid.Row="4" Grid.Column="1" Height="22" Margin="113,7,0,5"
+        	Mask="#00" Width="76" HorizontalAlignment="Left" RenderTransformOrigin="0.553,-1.409" />
+
+        <ComboBox Name="cmbCountChildren" Margin="0,6,0,5" Height="22" Width="189" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Left" />
+
+        <ComboBox Name="cmbMarried" Margin="0,5,0,6" Height="22" Width="189" Grid.Row="6" Grid.Column="1" HorizontalAlignment="Left" />
+
+        <StackPanel Orientation="Horizontal" Grid.Row="7" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="8">
+            <Button x:Name="CloseButton" Height="30" Width="100" Margin="10,0" Content="Отмена" Click="CloseButton_Click" IsCancel="True" />
+            <Button x:Name="SaveButton" Height="30" Width="100" Margin="10,0" Content="Сохранить" Click="SaveButton_Click" IsEnabled="true" />
+        </StackPanel>
+        <TextBlock Text="до" Foreground="White" FontSize="14" Margin="0,7,182,8" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Right"/>
+
+    </Grid>
+</Window>

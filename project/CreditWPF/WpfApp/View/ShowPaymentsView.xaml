@@ -1,0 +1,40 @@
+﻿<Window x:Class="WpfApp.View.ShowPaymentsView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"         
+         Style="{StaticResource ShowDialogWindowsStyle}"
+         Title="График выплат кредита" 
+        Icon="/WpfApp;component/Image/title.ico"
+         WindowStartupLocation="CenterScreen" 
+         Height="500" Width="550">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid Name="allModelDataGrid" 
+                  Grid.Column="1" Grid.Row="1" 
+                  AutoGenerateColumns="False" 
+                  EnableRowVirtualization="True" 
+                  HorizontalAlignment="Stretch" 
+                  VerticalAlignment="Stretch"                                                  
+                  RowDetailsVisibilityMode="VisibleWhenSelected"                       
+                  SelectionMode="Single" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Path=NumberMonth, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="Месяц" Width="80" IsReadOnly="True" />
+                <DataGridTextColumn Binding="{Binding Path=Data, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Header="Дата" Width="*" IsReadOnly="True" />
+                <DataGridTextColumn Binding="{Binding Path=LostSumma, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="Остаток кредита" Width="120" IsReadOnly="True" />
+                <DataGridTextColumn Binding="{Binding Path=MainPay, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="Проценты" Width="80" IsReadOnly="True" />
+                <DataGridTextColumn Binding="{Binding Path=SummaMonth, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="Всего за платёж" Width="*" IsReadOnly="True" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Height="30" Width="150" Margin="0,0,0,5" Grid.Column="1" Grid.Row="3" Content="Закрыть" Click="CloseButton_Click" />
+
+    </Grid>
+</Window>

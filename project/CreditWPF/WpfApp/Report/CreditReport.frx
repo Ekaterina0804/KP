@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="09/03/2013 14:47:52" ReportInfo.Modified="11/04/2015 16:10:20" ReportInfo.CreatorVersion="1.7.35.0">
+  <Dictionary>
+    <TableDataSource Name="CreditInfoList" ReferenceName="CreditInfoList" DataType="System.Int32" Enabled="true">
+      <Column Name="Fio" DataType="System.String"/>
+      <Column Name="Data" DataType="System.String"/>
+      <Column Name="SummaFull" DataType="System.String"/>
+      <Column Name="Stavka" DataType="System.String"/>
+      <Column Name="TermMonth" DataType="System.String"/>
+      <Column Name="IdCredit" DataType="System.String"/>
+    </TableDataSource>
+    <TableDataSource Name="PaymentList" ReferenceName="PaymentList" DataType="System.Int32" Enabled="true">
+      <Column Name="IdCredit" DataType="System.String"/>
+      <Column Name="NumberMonth" DataType="System.String"/>
+      <Column Name="Data" DataType="System.String"/>
+      <Column Name="LostSumma" DataType="System.String"/>
+      <Column Name="MainPay" DataType="System.String"/>
+      <Column Name="Percent" DataType="System.String"/>
+      <Column Name="SummaMonth" DataType="System.String"/>
+    </TableDataSource>
+  </Dictionary>
+  <ReportPage Name="Page1" RawPaperSize="9">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="37.8">
+      <TextObject Name="Text8" Left="-9327.15" Top="-9450" Width="37.8" Height="18.9" Text="[TotalPages#]" HorzAlign="Center"/>
+      <TextObject Name="Text9" Left="-9383.85" Top="-9450" Width="37.8" Height="18.9" Text="[Page#]" HorzAlign="Center"/>
+      <TextObject Name="Text6" Left="-9450" Top="-9450" Width="75.6" Height="18.9" Text="страница"/>
+      <TextObject Name="Text7" Left="-9346.05" Top="-9450" Width="28.35" Height="18.9" Text="из"/>
+      <TextObject Name="Text2" Top="9.45" Width="718.2" Height="28.35" Text="Отчет по кредитованию заёмщика" HorzAlign="Center" Font="Arial, 14.25pt, style=Bold"/>
+      <TextObject Name="Text1" Left="595.35" Width="122.85" Height="18.9" Text="[Date]" Font="Arial, 8pt"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="41.8" Width="718.2" Height="283.5">
+      <TextObject Name="Text10" Top="9.45" Width="718.2" Height="28.35" Text="Данные по кредиту" HorzAlign="Center" Font="Arial, 12pt, style=Bold"/>
+      <ShapeObject Name="Shape1" Left="9.45" Top="37.8" Width="699.3" Height="179.55" Border.Color="Gray" Fill.Color="LightCyan" Shape="RoundRectangle"/>
+      <TextObject Name="Text3" Left="18.9" Top="56.7" Width="179.55" Height="18.9" Text="Заёмщик:" HorzAlign="Right"/>
+      <TextObject Name="Text17" Left="236.25" Top="56.7" Width="444.15" Height="28.35" Text="[CreditInfoList.Fio]" Font="Arial, 10pt, style=Bold, Italic"/>
+      <TextObject Name="Text11" Left="18.9" Top="85.05" Width="179.55" Height="18.9" Text="Дата оформления:" HorzAlign="Right"/>
+      <TextObject Name="Text18" Left="236.25" Top="85.05" Width="444.15" Height="28.35" Text="[CreditInfoList.Data]" Font="Arial, 10pt, style=Bold, Italic"/>
+      <TextObject Name="Text12" Left="18.9" Top="113.4" Width="179.55" Height="18.9" Text="Сумма кредита:" HorzAlign="Right"/>
+      <TextObject Name="Text19" Left="236.25" Top="113.4" Width="444.15" Height="28.35" Text="[CreditInfoList.SummaFull]" Font="Arial, 10pt, style=Bold, Italic"/>
+      <TextObject Name="Text13" Left="18.9" Top="141.75" Width="179.55" Height="18.9" Text="Процентная ставка:" HorzAlign="Right"/>
+      <TextObject Name="Text20" Left="236.25" Top="141.75" Width="444.15" Height="28.35" Text="[CreditInfoList.Stavka]" Font="Arial, 10pt, style=Bold, Italic"/>
+      <TextObject Name="Text14" Left="18.9" Top="170.1" Width="179.55" Height="18.9" Text="Срок погашения кредита:" HorzAlign="Right"/>
+      <TextObject Name="Text21" Left="236.25" Top="170.1" Width="444.15" Height="28.35" Text="[CreditInfoList.TermMonth]" Font="Arial, 10pt, style=Bold, Italic"/>
+      <TextObject Name="Text24" Left="9.45" Top="226.8" Width="699.3" Height="18.9" Text="График выплат по кредиту" HorzAlign="Center" Font="Arial, 12pt, style=Bold"/>
+      <TableObject Name="Table2" Left="28.35" Top="255.15" Width="670.8" Height="28.35" Border.Lines="Left, Right, Top" Fill.Color="Azure">
+        <TableColumn Name="Column7" Width="74"/>
+        <TableColumn Name="Column8" Width="92.9"/>
+        <TableColumn Name="Column9" Width="130.7"/>
+        <TableColumn Name="Column10" Width="140.15"/>
+        <TableColumn Name="Column11" Width="83.45"/>
+        <TableColumn Name="Column12" Width="149.6"/>
+        <TableRow Name="Row3" Height="28.35">
+          <TableCell Name="Cell28" Border.Lines="Right, Bottom" Fill.Color="PaleTurquoise" Text="Месяц" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell29" Border.Lines="Right, Bottom" Fill.Color="PaleTurquoise" Text="Дата" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell30" Border.Lines="Right, Bottom" Fill.Color="PaleTurquoise" Text="Остаток кредита" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell31" Border.Lines="Right, Bottom" Fill.Color="PaleTurquoise" Text="Основной платёж" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell32" Border.Lines="Right, Bottom" Fill.Color="PaleTurquoise" Text="Проценты" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell33" Border.Lines="Right, Bottom" Fill.Color="PaleTurquoise" Text="Всего за платёж" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+        </TableRow>
+      </TableObject>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="329.3" Width="718.2" Height="18.9" DataSource="PaymentList">
+      <TableObject Name="Table1" Left="28.35" Width="670.8" Height="18.9" Border.Lines="Left, Right, Top" Fill.Color="Azure">
+        <TableColumn Name="Column1" Width="74"/>
+        <TableColumn Name="Column2" Width="92.9"/>
+        <TableColumn Name="Column3" Width="130.7"/>
+        <TableColumn Name="Column4" Width="140.15"/>
+        <TableColumn Name="Column5" Width="83.45"/>
+        <TableColumn Name="Column6" Width="149.6"/>
+        <TableRow Name="Row1">
+          <TableCell Name="Cell1" Border.Lines="Right, Bottom" Fill.Color="White" Text="[PaymentList.NumberMonth]" HorzAlign="Center" VertAlign="Center"/>
+          <TableCell Name="Cell2" Border.Lines="Right, Bottom" Fill.Color="White" Text="[PaymentList.Data]" HorzAlign="Center" VertAlign="Center"/>
+          <TableCell Name="Cell3" Border.Lines="Right, Bottom" Fill.Color="White" Text="[PaymentList.LostSumma]" HorzAlign="Center" VertAlign="Center"/>
+          <TableCell Name="Cell4" Border.Lines="Right, Bottom" Fill.Color="White" Text="[PaymentList.MainPay]" HorzAlign="Center" VertAlign="Center"/>
+          <TableCell Name="Cell5" Border.Lines="Right, Bottom" Fill.Color="White" Text="[PaymentList.Percent]" HorzAlign="Center"/>
+          <TableCell Name="Cell26" Border.Lines="Right, Bottom" Fill.Color="White" Text="[PaymentList.SummaMonth]" HorzAlign="Center"/>
+        </TableRow>
+      </TableObject>
+    </DataBand>
+    <ReportSummaryBand Name="ReportSummary1" Top="352.2" Width="718.2" Height="18.9"/>
+  </ReportPage>
+</Report>

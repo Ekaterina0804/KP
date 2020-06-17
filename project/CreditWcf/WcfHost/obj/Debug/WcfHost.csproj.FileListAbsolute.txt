@@ -1,0 +1,16 @@
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Debug\WcfHost.exe.config
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Debug\WcfHost.exe
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Debug\WcfHost.pdb
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Debug\EntityFramework.dll
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Debug\EntityFramework.SqlServer.dll
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Debug\EntityFramework.SqlServerCompact.dll
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Debug\System.Data.SqlServerCe.dll
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Debug\EntityFramework.xml
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Debug\EntityFramework.SqlServer.xml
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Debug\EntityFramework.SqlServerCompact.xml
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\obj\Debug\WcfHost.csprojResolveAssemblyReference.cache
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\obj\Debug\WcfHost.Properties.Resources.resources
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\obj\Debug\WcfHost.ServiceHostForm.resources
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\obj\Debug\WcfHost.csproj.GenerateResource.Cache
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\obj\Debug\WcfHost.exe
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\obj\Debug\WcfHost.pdb

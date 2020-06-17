@@ -1,0 +1,81 @@
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Release\WcfHost.exe.config
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Release\WcfHost.exe
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Release\WcfHost.pdb
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Release\EntityFramework.dll
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Release\EntityFramework.SqlServer.dll
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Release\EntityFramework.SqlServerCompact.dll
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Release\System.Data.SqlServerCe.dll
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Release\EntityFramework.xml
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Release\EntityFramework.SqlServer.xml
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Release\EntityFramework.SqlServerCompact.xml
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\obj\Release\WcfHost.Properties.Resources.resources
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\obj\Release\WcfHost.ServiceHostForm.resources
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\obj\Release\WcfHost.csproj.GenerateResource.Cache
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\obj\Release\WcfHost.exe
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\obj\Release\WcfHost.pdb
+E:\Novikova\Проекты\ORDER New Credit\CreditWcf\WcfHost\obj\Release\WcfHost.csprojResolveAssemblyReference.cache
+E:\C#\Подработка\ORDER New Credit\CreditWcf\WcfHost\bin\Release\WcfHost.exe.config
+E:\C#\Подработка\ORDER New Credit\CreditWcf\WcfHost\obj\Release\WcfHost.exe
+E:\C#\Подработка\ORDER New Credit\CreditWcf\WcfHost\obj\Release\WcfHost.pdb
+E:\C#\Подработка\ORDER New Credit\CreditWcf\WcfHost\bin\Release\WcfHost.exe
+E:\C#\Подработка\ORDER New Credit\CreditWcf\WcfHost\bin\Release\WcfHost.pdb
+E:\C#\Подработка\ORDER New Credit\CreditWcf\WcfHost\bin\Release\EntityFramework.dll
+E:\C#\Подработка\ORDER New Credit\CreditWcf\WcfHost\bin\Release\EntityFramework.SqlServer.dll
+E:\C#\Подработка\ORDER New Credit\CreditWcf\WcfHost\bin\Release\EntityFramework.SqlServerCompact.dll
+E:\C#\Подработка\ORDER New Credit\CreditWcf\WcfHost\bin\Release\System.Data.SqlServerCe.dll
+E:\C#\Подработка\ORDER New Credit\CreditWcf\WcfHost\bin\Release\EntityFramework.xml
+E:\C#\Подработка\ORDER New Credit\CreditWcf\WcfHost\bin\Release\EntityFramework.SqlServer.xml
+E:\C#\Подработка\ORDER New Credit\CreditWcf\WcfHost\bin\Release\EntityFramework.SqlServerCompact.xml
+E:\C#\Подработка\ORDER New Credit\CreditWcf\WcfHost\obj\Release\WcfHost.csprojResolveAssemblyReference.cache
+E:\C#\Подработка\ORDER New Credit\CreditWcf\WcfHost\obj\Release\WcfHost.Properties.Resources.resources
+E:\C#\Подработка\ORDER New Credit\CreditWcf\WcfHost\obj\Release\WcfHost.ServiceHostForm.resources
+E:\C#\Подработка\ORDER New Credit\CreditWcf\WcfHost\obj\Release\WcfHost.csproj.GenerateResource.Cache
+D:\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Release\WcfHost.exe.config
+D:\Проекты\ORDER New Credit\CreditWcf\WcfHost\obj\Release\WcfHost.exe
+D:\Проекты\ORDER New Credit\CreditWcf\WcfHost\obj\Release\WcfHost.pdb
+D:\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Release\WcfHost.exe
+D:\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Release\WcfHost.pdb
+D:\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Release\EntityFramework.dll
+D:\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Release\EntityFramework.SqlServer.dll
+D:\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Release\EntityFramework.SqlServerCompact.dll
+D:\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Release\System.Data.SqlServerCe.dll
+D:\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Release\EntityFramework.xml
+D:\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Release\EntityFramework.SqlServer.xml
+D:\Проекты\ORDER New Credit\CreditWcf\WcfHost\bin\Release\EntityFramework.SqlServerCompact.xml
+D:\Проекты\ORDER New Credit\CreditWcf\WcfHost\obj\Release\WcfHost.csprojResolveAssemblyReference.cache
+D:\Проекты\ORDER New Credit\CreditWcf\WcfHost\obj\Release\WcfHost.Properties.Resources.resources
+D:\Проекты\ORDER New Credit\CreditWcf\WcfHost\obj\Release\WcfHost.ServiceHostForm.resources
+D:\Проекты\ORDER New Credit\CreditWcf\WcfHost\obj\Release\WcfHost.csproj.GenerateResource.Cache
+E:\C#\Подработка\ORDER 38065\CreditWcf\WcfHost\bin\Release\WcfHost.exe.config
+E:\C#\Подработка\ORDER 38065\CreditWcf\WcfHost\obj\Release\WcfHost.exe
+E:\C#\Подработка\ORDER 38065\CreditWcf\WcfHost\obj\Release\WcfHost.pdb
+E:\C#\Подработка\ORDER 38065\CreditWcf\WcfHost\bin\Release\WcfHost.exe
+E:\C#\Подработка\ORDER 38065\CreditWcf\WcfHost\bin\Release\WcfHost.pdb
+E:\C#\Подработка\ORDER 38065\CreditWcf\WcfHost\bin\Release\EntityFramework.dll
+E:\C#\Подработка\ORDER 38065\CreditWcf\WcfHost\bin\Release\EntityFramework.SqlServer.dll
+E:\C#\Подработка\ORDER 38065\CreditWcf\WcfHost\bin\Release\EntityFramework.SqlServerCompact.dll
+E:\C#\Подработка\ORDER 38065\CreditWcf\WcfHost\bin\Release\System.Data.SqlServerCe.dll
+E:\C#\Подработка\ORDER 38065\CreditWcf\WcfHost\bin\Release\EntityFramework.xml
+E:\C#\Подработка\ORDER 38065\CreditWcf\WcfHost\bin\Release\EntityFramework.SqlServer.xml
+E:\C#\Подработка\ORDER 38065\CreditWcf\WcfHost\bin\Release\EntityFramework.SqlServerCompact.xml
+E:\C#\Подработка\ORDER 38065\CreditWcf\WcfHost\obj\Release\WcfHost.csprojResolveAssemblyReference.cache
+E:\C#\Подработка\ORDER 38065\CreditWcf\WcfHost\obj\Release\WcfHost.Properties.Resources.resources
+E:\C#\Подработка\ORDER 38065\CreditWcf\WcfHost\obj\Release\WcfHost.ServiceHostForm.resources
+E:\C#\Подработка\ORDER 38065\CreditWcf\WcfHost\obj\Release\WcfHost.csproj.GenerateResource.Cache
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWcf\WcfHost\bin\Release\WcfHost.exe.config
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWcf\WcfHost\bin\Release\WcfHost.exe
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWcf\WcfHost\bin\Release\WcfHost.pdb
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWcf\WcfHost\bin\Release\EntityFramework.dll
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWcf\WcfHost\bin\Release\EntityFramework.SqlServer.dll
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWcf\WcfHost\bin\Release\EntityFramework.SqlServerCompact.dll
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWcf\WcfHost\bin\Release\System.Data.SqlServerCe.dll
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWcf\WcfHost\bin\Release\EntityFramework.xml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWcf\WcfHost\bin\Release\EntityFramework.SqlServer.xml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWcf\WcfHost\bin\Release\EntityFramework.SqlServerCompact.xml
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWcf\WcfHost\obj\Release\WcfHost.csprojAssemblyReference.cache
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWcf\WcfHost\obj\Release\WcfHost.Properties.Resources.resources
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWcf\WcfHost\obj\Release\WcfHost.ServiceHostForm.resources
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWcf\WcfHost\obj\Release\WcfHost.csproj.GenerateResource.cache
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWcf\WcfHost\obj\Release\WcfHost.csproj.CopyComplete
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWcf\WcfHost\obj\Release\WcfHost.exe
+I:\10\bird\активные\118-КП-СТОЭИ-Программная поддержка анализа кредитоспособности клиента\118-КП-СТОЭИ\project\CreditWcf\WcfHost\obj\Release\WcfHost.pdb
